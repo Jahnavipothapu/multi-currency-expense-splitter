@@ -1,0 +1,29 @@
+{
+  "users": [
+    { "name": "Alice", "email": "alice@example.com", "password": "password123" },
+    { "name": "Bob", "email": "bob@example.com", "password": "password123" },
+    { "name": "Charlie", "email": "charlie@example.com", "password": "password123" }
+  ],
+  "group": {
+    "name": "Europe Trip",
+    "baseCurrency": "USD"
+  },
+  "expenses": [
+    {
+      "amount": 120,
+      "currency": "EUR",
+      "description": "Hotel booking",
+      "date": "2026-04-20",
+      "paidBy": "Alice",
+      "participants": ["Alice", "Bob", "Charlie"]
+    },
+    {
+      "amount": 5000,
+      "currency": "INR",
+      "description": "Dinner and drinks",
+      "date": "2026-04-21",
+      "paidBy": "Bob",
+      "participants": ["Alice", "Bob"]
+    }
+  ]
+}
